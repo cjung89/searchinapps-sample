@@ -17,10 +17,10 @@
 
         <meta-data
             android:name="com.google.searchinapps.API_KEY"
-            android:value="AIzaSyBMOFzl9iM15poOsOuCPMs-nTtP39EmDtQ" />
+            android:value="YOUR API KEY HERE" />
         <meta-data
             android:name="com.google.searchinapps.CLIENT_ID"
-            android:value="app-sdk-demo-android" />
+            android:value="YOUR CLIENT ID HERE" />
 
         <activity
             android:name=".MainActivity"
