@@ -18,6 +18,7 @@ import static com.google.android.libraries.searchinapps.SearchSuggestionsViewOpt
 import static com.google.android.libraries.searchinapps.SearchSuggestionsViewOptions.Layout.COMPACT_CAROUSEL;
 import static com.google.android.libraries.searchinapps.SearchSuggestionsViewOptions.Layout.TILING;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RadioGroup;
@@ -71,6 +72,12 @@ public class MainActivity extends AppCompatActivity
               ? COMPACT_CAROUSEL
               : (radioGroup.getCheckedRadioButtonId() == R.id.carousel_layout ? CAROUSEL : TILING));
     }
+    findViewById(R.id.newsfeed_button).setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View view) {
+        startActivity(new Intent(MainActivity.this, NewsfeedActivity.class));
+      }
+    });
     findViewById(R.id.suggestion_button)
         .setOnClickListener(
             new View.OnClickListener() {

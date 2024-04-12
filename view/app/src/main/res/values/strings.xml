@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright 2022 Google LLC
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright 2022 Google LLC
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,11 +13,27 @@
      limitations under the License.
 -->
 <resources>
-  <string name="app_name" translatable="false">Sample App for SearchInApps</string>
-  <string name="search_text" translatable="false">Get suggestions</string>
-  <string name="search_hint" translatable="false">Enter search context</string>
-  <string name="trending_text" translatable="false">Get trendings</string>
-  <string name="compact_carousel_layout" translatable="false">Compact Carousel</string>
-  <string name="carousel_layout" translatable="false">Carousel</string>
-  <string name="tiling_layout" translatable="false">Tiling</string>
+    <string name="app_name" translatable="false">Sample App for SearchInApps</string>
+    <string name="search_text" translatable="false">Get suggestions</string>
+    <string name="search_hint" translatable="false">Enter search context</string>
+    <string name="trending_text" translatable="false">Get trendings</string>
+    <string name="compact_carousel_layout" translatable="false">Compact Carousel</string>
+    <string name="carousel_layout" translatable="false">Carousel</string>
+    <string name="tiling_layout" translatable="false">Tiling</string>
+ <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">MainActivity2</string>
+
+    <string name="category_1">SPACE</string>
+    <string name="category_2">HEALTH &amp; FITNESS</string>
+    <string name="category_3">SOCIAL MEDIA</string>
+    <string name="newsfeed_headline_1">SpaceX\'s Falcon Heavy Deploys Dozens of Satellites to Orbit</string>
+    <string name="newsfeed_headline_2">An Anti-Aging Pill? Think Twice</string>
+    <string name="newsfeed_headline_3">The Day the Music Died (on TikTok)</string>
+    <string name="newsfeed_snippet_1">The powerful rocket is carrying an assortment of cargo, including a solar sail, an atomic clock, and the ashes of 152 people.</string>
+    <string name="newsfeed_snippet_2">The diabetes drug metformin, sometimes taken to slow aging, may blunt the health benefits of exercise.</string>
+    <string name="newsfeed_snippet_3">Cody Fry and Noah Kahan are among the artists who are wondering how the battle between Universal Music Group and the social media platform might affect them.</string>
 </resources>

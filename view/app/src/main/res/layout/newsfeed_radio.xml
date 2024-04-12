@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RadioButton
+        android:id="@+id/carousel_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onRadioButtonClicked"
+        android:text="Carousel" />
+
+    <RadioButton
+        android:id="@+id/tiling_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onRadioButtonClicked"
+        android:checked="true"
+        android:text="Tiling" />
+    <RadioButton
+        android:id="@+id/compact_carousel_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onRadioButtonClicked"
+        android:text="Compact carousel" />
+</RadioGroup>
